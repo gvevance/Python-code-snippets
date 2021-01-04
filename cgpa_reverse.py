@@ -15,7 +15,7 @@ if sem_creds > 268 :
 
 gpa_req = (dream_cgpa*(credits_completed + sem_creds) - (current_cgpa * credits_completed)) / sem_creds
 
-if gpa_req > 10 or gpa_req < 5 :
+if gpa_req > 10 or gpa_req < 4 :
     print("Not possible . Exiting ...")
     quit()
 

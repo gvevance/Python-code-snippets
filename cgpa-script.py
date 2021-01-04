@@ -12,6 +12,11 @@ if new_creds > 268 :
     quit()
 
 gpa = float(input("Enter probable CGPA : "))
+
+if gpa > 10 or gpa < 4 :
+    print("Invalid GPA . Exiting ...")
+    quit()
+     
 new_cgpa = (credits_completed * current_cgpa + new_creds * gpa) / (credits_completed + new_creds)
 
 print(f"Your CGPA will be {new_cgpa}")
