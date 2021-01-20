@@ -48,3 +48,4 @@ while (True):
     array_0.append((_in1,_in2))
     print_course_queue(array_0)
 print("CGPA = ", calc_cgpa(array_0 , cred_0 , cgpa_0 ))
+input("Press Enter ... ")
